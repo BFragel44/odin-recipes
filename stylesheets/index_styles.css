@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    align-content: center;
+    margin-top: 5px;
+    max-height: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: bisque;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 4px ridge #1a2930;
+    border-radius: 15%;
+}
+
+img.logo-img {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: auto;
+}
+
+/* FOOD IMAGES */
+.container {
+    position: relative;
+    width: 50%;
+    padding-top: 10%;
+}
+
+ul.img-list {
+    display: inline-block;
+    list-style: none;
+    padding-top: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+img.food-img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 308px;
+    height: 87%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1a2930;
+    border-radius: 15%;
+    margin-top: 20%;
+}
+
+.container:hover .overlay {
+    opacity: .75;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: bolder;
+
+}
+/* END OF FOOD IMAGES */
+
+.credits {
+    position: fixed;
+    top: 0;
+    width: 200px;
+
+    box-sizing: border-box;
+    font-size: 8px;
+    text-align: center;
+    border: dotted;
+    margin-top: 1%;
+    margin-left: 1%;
+}
