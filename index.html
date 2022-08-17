@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Odin Recipes</title>
-  </head>
-  <body>
-	<h1>Odin Recipes</h1>
-      <ul>
-        <li><a href="recipes/gyros.html">Gyros</a></li>
-        <li><a href="recipes/bbq_ribs.html">Simple BBQ Ribs</a></li>
-        <li><a href="recipes/spaghetti.html">Baked Spaghetti</a></li>
-      </ul> 
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Odin Recipes</title>
+</head>
+<img class="logo-img "src="assets/ToP_logo.png">
+<body>
+  
+  <h1>Odin Recipes</h1>
+  
+  <ul class="no-bullets">
+    <li class="container">
+      <a class="column" href="recipes/gyros.html"><img src="assets/gyro_1.png" alt="a gyro"></a>
+      <div class="middle">
+      <div class="overlay-text">Gyros</div>     
+      </div>
+    </li>
+    <li class="container">
+      <a class="column" href="recipes/bbq_ribs.html"><img src="assets/simpleBBQribs.png" alt="BBQ ribs"></a>
+      <div class="middle">
+      <div class="overlay-text">BBQ Ribs</div>
+      </div>
+    </li>
+    <li class="container">
+      <a class="column" href="recipes/spaghetti.html"><img src="assets/spaghetti.png" alt="baked spaghetti"></a>
+      <div class="middle">
+      <div class="overlay-text">Baked Spaghetti</div>
+    </li>
+  </ul>
+
+</body>
+
+<div class="credits">
+  <h1>An Odin Project</h1>
+  <h1>By Brett Fragel</h1>
+</div>
+  
 </html>
