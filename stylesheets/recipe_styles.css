@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    align-content: center;
+    margin-top: 5px;
+    max-height: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: bisque;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 4px ridge #1a2930;
+    border-radius: 15%;
+}
+
+ul {
+    align-content: center;
+    padding-left: 10%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+ol {
+    align-content: center;
+    padding-left: 5%;
+    text-align: justify;
+
+    
+}
